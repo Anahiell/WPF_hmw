@@ -1,0 +1,32 @@
+﻿<Window x:Class="WPF_hmw2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_hmw2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition  Width="2.3*">
+                
+            </ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Grid.Column="0">
+            <Button Margin="2" Foreground="Navy">navy</Button>
+            <Button Margin="2" Foreground="Blue">blue</Button>
+            <Button Margin="2" Foreground="Aqua">aqua</Button>
+            <Button Margin="2" Foreground="Teal">teal</Button>
+            <Button Margin="2" Foreground="Olive">olive</Button>
+            <Button Margin="2" Foreground="Green">green</Button>
+            <Button Margin="2" Foreground="Lime">lime</Button>
+            <Button Margin="2" Foreground="Yellow">yellow</Button>
+            <Button Margin="2" Foreground="Orange">orange</Button>
+            <Button Margin="2" Foreground="Red">red</Button>
+            <Button Margin="2" Foreground="Maroon">maroon</Button>
+        </WrapPanel>
+        <Button Grid.Column="1">1/3</Button>
+    </Grid>
+</Window>
